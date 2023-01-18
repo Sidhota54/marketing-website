@@ -1,0 +1,11 @@
+/**
+ * CSS for both Frontend+Backend.
+ */
+
+.tpgb-container-col{
+	position: relative;
+    min-height: 1px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}

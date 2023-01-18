@@ -1,0 +1,37 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.dashicons-star-filled{
+	color:hsl(29deg 99% 54%);
+	font-size:25px;
+}
+
+.dashicons-editor-quote{
+	font-size:50px;
+	color:hsl(163deg 100% 41%);
+}
+
+.shadow-container{
+	box-shadow: 0px 15px 14.5px rgba(205,218,228,0.66);
+}
+.hr-tag{
+	margin-bottom:5px;
+	margin-top:15px;
+}
+
+.main-navigation .main-nav ul li a, .main-navigation .menu-toggle, .main-navigation .menu-bar-items {
+    color: #064079;
+}
+
+@media screen and (min-width: 900px) {
+.icon_hover{
+	font-size: 28px;
+	margin-right: 19px;
+}
+}
+@media screen and (max-width: 767px) {
+.icon_hover{
+	font-size: 25px;
+	margin-right: 18px;
+}
+}</style>
+<!-- end Simple Custom CSS and JS -->

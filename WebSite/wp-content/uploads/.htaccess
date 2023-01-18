@@ -1,0 +1,15 @@
+#======================================================================
+# Added by Tiger Technologies to block malicious PHP scripts running
+# under /wp-content/uploads.
+#
+# See <https://support.tigertech.net/wp-content-uploads-php> for more
+# details.
+#
+# Deleting this .htaccess file will allow these PHP scripts to run.
+
+<FilesMatch "\.php[0-9]?$|\.phtml$">
+	SetHandler tigertech-block-php-in-wp-uploads
+</FilesMatch>
+
+#----------------------------------------------------------------------
+
